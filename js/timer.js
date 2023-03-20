@@ -44,7 +44,7 @@ export default function Timer({
                             
             } else {
                     if(seconds <= 0) {
-                    seconds = 2
+                    seconds = 60
                         minutesPlus = Number(displayMinutes.textContent = String(minutes -1).padStart(2, "0"))
                     }
                     if(minutes <= 0 && seconds <= 0) {
